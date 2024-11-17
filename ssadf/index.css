@@ -1,0 +1,168 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+
+
+p{
+    font-weight: 300;
+}
+
+
+.all-in-one{
+background-color: #3b5d50;
+border-radius: 0px 0px 15px 15px; 
+height: 700px;
+
+}
+
+.logo{
+    color: white;
+    font-weight: 400;
+    font-size: 28px
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.bx {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.herocont{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.ss{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.paragrafh{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.sofa{
+    width: 600px;
+}
+
+.button1{
+    background: yellow;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button1:hover{
+    background: rgb(174, 174, 91);
+    
+}
+
+.button{
+    padding: 5px ;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.cards{
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.border-crd1{
+  
+    width: 300px;
+    height: 350px;
+
+}
+
+.border-crd{
+    text-align: center;
+    width: 300px;
+    height: 350px;
+
+}
+
+.textx{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.explore-card-text{
+    margin-top: 30px;
+    background: rgb(50, 50, 50);
+    padding: 5px;
+    border: 0px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.gmi{
+    width: 100%;
+}
+
+
+.conteiner{
+    width: 700px;
+    margin-top: 50px;
+    margin:60px;
+
+
+}
+
+.cardp-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-of-wcu{
+    margin-bottom: 50px;
+}
+
+.cardp{
+    width: 250px;
+}
+
+.cardp i{
+    font-size: 28px;
+}
